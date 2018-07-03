@@ -1,0 +1,23 @@
+1. Developer experience 
+
+	react dev tools (to monitor: performance, re-renders)
+
+	redux dev tools (time travel debugging - toggle the redux store to view different UI states in real time)
+
+	Active community and support -> blogs/ tutorials/ chat forums
+
+	Hot reload -> components update on state change without reloading the entire page
+
+	Functional programming - code is easier to read and reason about and thus easier to debug
+
+2. Library size
+
+	standalone React & ReactDOM (minified) 6 kb + 97 kb = 103kb
+
+	canjs 2.3 = 134 kb
+
+3. Performace
+
+	ReactJS is based on one-way-data-binding VirtualDOM and is more performant
+
+	CanJS is based on two-way-data-binding using observables
